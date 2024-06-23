@@ -1,4 +1,4 @@
-# tarotCardDealer
+# Tarot Card Dealer
 Lets you have a set of tarot cards dealt, for fortune and fun, written in JavaScript.
 
 This is a fun little project, inspired by a career path by Codecademy.
