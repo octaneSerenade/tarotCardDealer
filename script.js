@@ -41,7 +41,7 @@ let arrSpread = [];
 //Card choose and card splicer
 for(let i = 0; i < 3; i++)
     {
-    let pickIndex = Math.round(Math.random() * (arrTarot.length -1));
+    let pickIndex = Math.floor(Math.random() * (arrTarot.length));
     let pickCard = arrTarot[pickIndex];
     arrSpread.push(pickCard);
     arrTarot.splice(pickIndex, 1);
